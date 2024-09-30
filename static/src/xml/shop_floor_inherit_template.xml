@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates xml:space="preserve">
+    <t t-name="mrp_workorder_inherit" t-inherit="mrp_workorder.MrpDisplayProductionFooter" t-inherit-mode="extension">
+        <xpath expr="//button" position="after">
+            <button name="test" class="btn btn-secondary">Test</button>
+        </xpath>
+    </t>
+</templates>
